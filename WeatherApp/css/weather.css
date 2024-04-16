@@ -1,0 +1,63 @@
+body{
+    background-color: blue;
+}
+
+#form{
+    text-align: center;
+    font-size: 25px;
+}
+
+
+input{
+    font-size: 25px;
+    
+}
+.box-container{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+  
+.box{
+   
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5%;
+}
+
+#city{
+    background-color:rgb(12, 149, 149);
+}
+#temp{
+    background-color: rgb(79, 79, 169);
+}
+#wind{
+    background-color: rgb(2, 196, 255);
+}
+#humidity{
+    background-color: rgb(6, 242, 159);
+}
+
+
+button {
+    padding: 10px;
+    margin: 5px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: grey;
+  }
